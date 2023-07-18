@@ -230,20 +230,9 @@ ui->labelaa->repaint() ;
 void MainWindow::barriere()
 {
 
-    data=A.read_from_arduino();
+ 
 
-    if(data=="1")
-    {
-        QMessageBox::information(nullptr, QObject::tr("OPEN"),
-                    QObject::tr("hell "), QMessageBox::Cancel);
-
-
-    }
-    else {
-        QMessageBox::critical(nullptr, QObject::tr("CLAWZED"),
-                    QObject::tr("saker "), QMessageBox::Cancel);
-
-    }
+    
 }
 
 
